@@ -2,7 +2,6 @@ class Hat:
     # Hats_id_counter = 0
 
     def __init__(self, id, topping, supplier, quantity):
-        # maybe we need casting here.
         self.id = id
         self.topping = topping
         self.supplier = supplier
